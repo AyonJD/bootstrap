@@ -22,7 +22,7 @@ a{
     background: #E83B3E ;
     border: 0;
     position: relative;
-    padding: 10px 37px;
+    padding: 10px 20px;
     z-index: 1;
     border-color: #E83B3E;
 
@@ -88,6 +88,12 @@ ul.primary-menu li:hover ul{
     opacity: 1;
     top: 142%;
 }
+@media only screen and (max-width: 991px){
+    .cell-div-info{
+        /* top: 100%; */
+    }
+}
+
 /* header contact */
 
 .header-contact-div{
