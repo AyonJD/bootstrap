@@ -83,22 +83,48 @@
       </div>
     </nav> -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid">
-          <a href="#" class="navbar-brand">Brand</a>
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="" />
+        </a>
           <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse1">
               <div class="navbar-nav">
-                  <a href="#" class="nav-item nav-link active">Home</a>
-                  <a href="#" class="nav-item nav-link">About</a>
-                  <a href="#" class="nav-item nav-link">Products</a>
+                <ul class="navbar-nav ml-auto primary-menu">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Pages</a></li>
+                  <li>
+                    <a href="#">Services</a>
+                    <ul>
+                      <li><a href="#">Dropdown</a></li>
+                      <li><a href="#">Dropdown</a></li>
+                      <li><a href="#">Dropdown</a></li>
+                      <li><a href="#">Dropdown</a></li>
+                      <li><a href="#">Dropdown</a></li>
+                      <li><a href="#">Dropdown</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Funding</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
               </div>
-              <form class="d-flex ms-auto">
-                  <input type="text" class="form-control me-sm-2" placeholder="Search">
-                  <button type="submit" class="btn btn-outline-light">Search</button>
-              </form>
+              <div class="header-contact-div d-flex justify-content-between align-items-center">
+                <div class="icon-div">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+
+                <div class="cell-div-icon d-flex">
+                  <a href="tel:+1 (514) 312-5678"><i class="fas fa-phone-volume me-3"></i></a>
+                  <div class="cell-div-info">
+                    <p class="mb-0">Call Now</p>
+                    <a href="tel:+1 (514) 312-5678">+1 (514) 312-5678</a>
+                  </div>
+                </div>
+                <a href="#" class="btn default-button">Apply Now</a>
+              </div>
           </div>
       </div>
   </nav>

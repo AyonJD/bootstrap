@@ -88,9 +88,17 @@ ul.primary-menu li:hover ul{
     opacity: 1;
     top: 142%;
 }
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 1132px){
     .cell-div-info{
-        /* top: 100%; */
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px){
+    .header-contact-div{
+        display: none !important;
+    }
+    #navbarCollapse1 li{
+        margin: 10px 0;
     }
 }
 
@@ -140,6 +148,11 @@ ul.primary-menu li:hover ul{
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1132px){
+    .cell-div-icon i{
+        top: 0px;
+    }
+}
 /* Slider */
 .slider{
     background: url(./img/main-banner2.jpg) no-repeat top center;
