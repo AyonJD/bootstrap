@@ -199,6 +199,25 @@ ul.primary-menu li:hover ul{
     left: 76px;
 }
 
+@media only screen and (max-width: 767px){
+    
+    .slider-caption h1{
+        font-size: 40px;
+    }
+    .slider-list ul{
+        margin-top: 100px;
+    }
+    .slider-list ul li a{
+        padding: 0 10px;
+    }
+    .slider-list ul li a:hover{
+        color: #E83B3E;
+    }
+    .slider-list .fa-twitter{
+        margin-left: 10px;
+    }
+}
+
 /* Logo section */
 .logo-section{
     padding: 100px 0;
@@ -245,6 +264,11 @@ ul.primary-menu li:hover ul{
     max-height: inherit;
 }
 
+@media only screen and (max-width: 535px){
+    .text-div{
+        display: none !important;
+    }
+}
 /* Why CHoose Us Section */
 .why-choose-us{
     padding: 80px 0;
