@@ -274,9 +274,12 @@ ul.primary-menu li:hover ul{
     padding: 80px 0;
     padding-top: 90px !important;
 }
+.why-us-img{
+    position: relative;
+}
 .why-choose-us a{
     position: absolute;
-    bottom: 182px;
+    bottom: 0;
     right: 194px;
 }
 
@@ -356,6 +359,12 @@ ul.primary-menu li:hover ul{
     top: 0;
     left: 0;
     animation: play-button 2s cubic-bezier(0, 0.01, 0, 0) infinite;
+}
+
+@media only screen and (max-width: 991px){
+    .why-choose-us{
+        margin-top: 350px;
+    }
 }
 
 /* Loan section */
